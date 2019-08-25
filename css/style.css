@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+body{font-family: 'Roboto', sans-serif;}
+h1{
+	font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Abril Fatface', cursive;
+}
+.navbar-brand img{
+	width: 100px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 500;
+    padding-left: 25px;
+    padding-right: 30px;
+
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: rgb(181, 31, 37);
+}
+
+.btn-custom{
+	background-color: rgb(181, 31, 37);
+	color: rgb(239, 240, 240) !important;
+	border-radius: 30px;
+	padding-right: 30px !important;
+	padding-left: 30px !important;
+	border: 1px solid rgb(181, 31, 37);
+
+}
+.btn-custom:hover{
+	background-color: rgb(181, 31, 37, 0);
+	color: rgb(181, 31, 37) !important;
+}
+.banner{
+	    background-image: url(../images/baner.jpg);
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-color: #575757;
+	    background-blend-mode: multiply;
+	    color: #fff;
+	    text-align: center;
+}
+.banner .row{
+	min-height: 80vh;
+}
+.banner-btn li{
+	padding: 0 10px;
+}
+.banner-btn a{
+	/*background-color: rgb(255, 255, 255);*/
+	color: rgb(239, 240, 240) !important;
+	border-radius: 30px;
+	padding-right: 30px !important;
+	padding-left: 30px !important;
+	border: 1px solid rgb(255, 255, 255);
+	position: relative;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.banner-btn a:hover{
+	background-color: #fff;
+	color: rgb(181, 31, 37) !important;
+
+}
+.banner-btn a::before{
+	content: "";
+	position: absolute;
+	height: 100%;
+	width:100%;
+	top: -3px;
+	left: 0;
+	border-radius: 30px;
+	border: 1px solid rgb(255, 255, 255);
+}
+.banner-btn a:hover::before{
+	border: 1px solid rgba(255, 255, 255, 0);
+}
+.modal-content {
+    background-color: #7b3437;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 0;
+}
+.about-bbq-section{
+	padding: 100px 0;
+}
+.about-bbq{
+    text-align: center;
+}
+.about-bbq{
+	max-width: 80%;
+}
+.about-bbq h3{
+    font-size: 18px;
+    font-weight: 100;
+    color: #040404;
+}
+.about-bbq h1{
+    font-size: 3em;
+    color: #b51f25;
+}
+.about-bbq h4{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #696a6b;
+    font-size: 17px;
+}
+.about-bbq h5{
+
+margin-top: 30px;
+
+font-weight: 600;
+
+font-size: 18px;
+}
+.about-bbq p{
+    margin: 30px 0;
+}
+.about-bbq a{
+	position: relative;
+	background-color: transparent;
+	color: #b51f25 !important;
+	font-weight: 600;
+}
+.about-bbq a:hover{
+	background-color: #b51f25;
+	color: #fff !important;
+}
+.about-bbq a::before{
+	content: "";
+	position: absolute;
+	height: 100%;
+	width:100%;
+	top: -3px;
+	left: 0;
+	border-radius: 30px;
+	border: 1px solid #b51f25;
+}
+.about-bbq a:hover::before{
+	border: 1px solid transparent;
+}
+.client{
+	padding: 100px 0;
+}
+
+.banner h1{
+    font-weight: 900;
+    font-size: 4em;
+}
+.banner h3{
+    font-size: 20px;
+    color: #b51f25;
+}
+.banner-two h1{
+    font-size: 3em;
+    color: #b51f25;
+}
+.banner-two h4{
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.banner p{
+	padding: 25px 0;
+}
+.banner-two{
+	background-image: url(../images/bbq_banner.jpg);
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-color: #3c3939;
+	    background-blend-mode: multiply;
+	    color: #fff;
+	    text-align: center;
+}
+
+.banner-two .row{
+	min-height: 70vh;
+}
+.banner-two p{
+	font-style: italic;
+	font-size: 18px;
+}
+.menu-section{
+	padding: 100px 0;
+    max-width: 60%;
+    margin: auto;
+}
+.menu-section h3{
+    color: #000;
+    font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 500;
+}
+.menu-section h2{
+    font-size: 35px;
+    color: #b51f25;
+    font-weight: 700;
+    font-family: 'Abril Fatface', cursive;
+}
+.menu-section p{
+	font-size: 16px;
+}
+.menu-section img{
+	border-radius: 50%;
+	max-width: 150px;
+}
+.banner-three{
+	background-image: url(../images/lastban.jpg);
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-color: #3c3939;
+	    background-blend-mode: multiply;
+	    color: #fff;
+	    text-align: center;
+}
+.banner-three .row{
+	min-height: 80vh;
+}
+.banner-three h2{
+    font-size: 3em;
+    font-weight: 700;
+    color: #b51f25;
+    padding-top: 15px;
+}
+.banner-three h4{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400 !important;
+}
+.banner-three p{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 26px 0;
+}
+.banner-three a{
+	color: rgb(239, 240, 240,) !important;
+	border-radius: 30px;
+	padding-right: 30px !important;
+	padding-left: 30px !important;
+	border: 1px solid rgb(255, 255, 255);
+	position: relative;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-color: transparent;
+}
+.banner-three a:hover{
+}
+.banner-three a::before{
+	content: "";
+	position: absolute;
+	height: 100%;
+	width:100%;
+	top: -3px;
+	left: 0;
+	border-radius: 30px;
+	border: 1px solid rgb(255, 255, 255);
+}
+.client-about .row{
+	justify-content: center !important;
+    text-align: center !important;
+}
+
+.client-about{
+	padding: 100px 0;
+	max-width: 60%;
+	margin: auto;
+}
+.client-part{
+	text-align: center;
+	max-width: 80%;
+	margin: auto;
+	padding-top: 100px;
+}
+.client-about img{
+	max-width: 100px;
+}
+.client-about h3{
+    font-size: 18px;
+    margin: 20px 0;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5;
+}
+.client-about h4{
+    font-size: 14px;
+    text-align: center;
+}
+.client-part p{
+}
+.client-part h1>i{
+	color: #e50b0b;
+}
+.banne-footer{
+	background-image: url(../images/lastbbq.jpg);
+	    background-size: cover;
+	    background-color: #575757;
+	    background-blend-mode: multiply;
+	    color: #fff;
+	    text-align: center;
+}
+.banne-footer .row{
+	min-height: 70vh;
+	}
+.banne-footer h1{
+    font-weight: 900;
+    font-size: 4em;
+        padding: 35px;
+}
+.banne-footer h3{
+    font-size: 20px;
+    color: #b51f25;
+}
+.banne-footer h2{
+	    font-size: 16px;
+    font-weight: 600;
+    margin-top: 35px;
+}
+.banne-footer p{
+	padding-bottom: 25px !important;
+}
+.footer .row{
+	height: 70vh;
+}
+.social  ul{
+    width: 100%;
+    justify-content: center;
+    margin-top: 45px;
+}
+.social  li{
+        width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    border: 2px dotted #fff;
+    margin: 10px 3px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.social li:hover{
+        background-color: #892b10;
+        color: #fff !important;
+        transition: 0.5s;
+}
+
+.social i{
+	  line-height: 45px;
+	  font-size: 19px;
+	  transition: 0.2s linear;
+	  color: #FFFFFF;
+}
+
+.copyright h5{
+	font-size: 14px !important;
+}
+span{
+    color: #615a5a;
+}
+.shadow{
+	box-shadow: 0 5px 15px #6963636e !important;
+}
+.shadow:hover{
+	box-shadow: 0 0 0 #6963636e !important;
+}
+
+.banner h1{
+	animation-name: color;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+
+}
+@keyframes color{
+	0%{
+		color: #fff;
+	}
+	50%{
+		color: red;
+	}
+	100%{
+		color: gray;
+	}
+}
+.banner-btn,.btn{
+	animation-name: up-down;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+
+}
+@keyframes up-down{
+	0%{
+		transform: translateY();
+	}
+	50%{
+		transform: translateY(10px);
+	}
+	100%{}
+}
